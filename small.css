@@ -1,0 +1,8 @@
+/* @media (min-width: 576px) { ... } */
+.logo-container img {
+  display: none;
+}
+
+.title-container {
+  width: 100%;
+}

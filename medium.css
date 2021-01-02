@@ -1,0 +1,48 @@
+/* @media (min-width: 768px) { ... } */
+.mobile-nav {
+  display: none;
+}
+
+.desktop-nav {
+  display: block;
+  margin-left: 150px;
+}
+
+.desktop-nav li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.desktop-nav li a {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 60px;
+  display: inline-block;
+  position: relative;
+}
+
+.desktop-nav li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.desktop-nav li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.logo-container img {
+  display: block;
+}
